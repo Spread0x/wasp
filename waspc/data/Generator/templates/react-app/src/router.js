@@ -2,6 +2,7 @@
 import React from 'react'
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
+import createPrivatePage from "./auth/pages/createPrivatePage.js"
 {=# pagesToImport =}
 import {= importWhat =} from "{= importFrom =}"
 {=/ pagesToImport =}
