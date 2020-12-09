@@ -5,6 +5,9 @@ app todoApp {
 auth {
     userEntity: User,
     methods: [ EmailAndPassword ]
+
+    //onAuthSuccessRedirectToRoute: "/",
+    //onAuthFailRedirectToRoute: "/login"
 }
 
 entity User {=psl
